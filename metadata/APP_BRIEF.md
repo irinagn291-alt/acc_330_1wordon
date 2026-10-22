@@ -1,4 +1,4 @@
-<!-- gf-brief source=7f314fda5e1f8998df6f16d2a5de27310fcb7999523d64868729f94b81e1b4f1 written=2026-10-22T03:04:24+03:00 -->
+<!-- gf-brief source=7f314fda5e1f8998df6f16d2a5de27310fcb7999523d64868729f94b81e1b4f1 written=2026-10-22T03:04:37+03:00 -->
 # Cordon
 ## What it is
 Cordon is a dark-screen savings notebook for someone who wants to set aside loose cash by hand. You name a goal, record cash drops into a waiting tray, then commit the whole tray so a vine grows toward that goal. Nothing is linked to a bank.
