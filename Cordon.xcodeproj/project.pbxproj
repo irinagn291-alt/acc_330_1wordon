@@ -968,9 +968,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cordon.canopy;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.watchkitapp;
 				PRODUCT_NAME = CordonWatch;
 				SDKROOT = watchos;
@@ -1016,9 +1018,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cordon.canopy;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.watchkitapp;
 				PRODUCT_NAME = CordonWatch;
 				SDKROOT = watchos;
