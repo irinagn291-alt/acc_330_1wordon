@@ -27,7 +27,9 @@ enum ReviewLaunch {
     static func disableAnimationsIfNeeded() {
         #if os(iOS)
         if ProcessInfo.processInfo.arguments.contains(argument) {
-            UIView.setAnimationsEnabled(false)
+            MainActor.assumeIsolated {
+                UIView.setAnimationsEnabled(false)
+            }
         }
         #endif
     }
