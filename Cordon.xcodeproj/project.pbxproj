@@ -12,41 +12,32 @@
 		07D2EF38DC69FC856AC84534 /* CanopyMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61699AF6C8B6D956B064808B /* CanopyMetrics.swift */; };
 		080E5A935AAB2D0C3E193505 /* CanopyRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5C1AE425FC63CF17B4D06A /* CanopyRootView.swift */; };
 		0A815819AC529AE4D75038BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E74EFB53A44B3D3A820F11 /* ContentView.swift */; };
-		0C237C1CB19D2F940F092DAE /* SetMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22794F74CD26471FB1D3C902 /* SetMark.swift */; };
 		0CD08219FAF347DA5AA3F0F4 /* DataStreamRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B026413996FF5DF52FD75 /* DataStreamRequest.swift */; };
 		0CD38F86AA8E87020A47EB26 /* ReviewScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CDD7627599E5FF0F7B6C80 /* ReviewScreenRouter.swift */; };
 		1A0B4D4E756083AAC6E62D6A /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DF42EF473FB6B7C691F0 /* MultipartUpload.swift */; };
-		1AF77D6F1243B38701083548 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEFA5CBA2A6DC585EC5058 /* ReviewLaunch.swift */; };
 		1D8A975CC97E8158EA6794A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6EE2BC7FA3B2485D8240B /* AppDelegate.swift */; };
 		1FF1090DDDFF263657A39127 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046656C44648A44DD64D3FF /* Protected.swift */; };
 		22F406D23EF394A11FFDEBC6 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD669FD5F1CAE5D3E9FC14 /* Notifications.swift */; };
-		23A07D9D78C3E1DB3A623A2D /* CordonCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0F1F8BD0DF172E8762AEF /* CordonCanvas.swift */; };
 		27EF55F0F32A3559E3DB30F4 /* OfflineRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA01CC3D35EF5401344998 /* OfflineRetrier.swift */; };
 		2965C93797EA38079DFF3DA8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD37EF1FBCDB15417855270 /* SessionDelegate.swift */; };
 		29FAB5BAC86A9EDD91F6C72D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C15EB3D8E546ABEC9380E7 /* Validation.swift */; };
 		2EB7EB64EE6027E5F5412664 /* CordonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA0FD2F13DCAD6F128C232 /* CordonDemo.swift */; };
 		30D6A55D36DC6FAAE880D8D7 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D88C92636550EBCCA44C3 /* RequestTaskMap.swift */; };
 		3842AB56FDA3A9F7AD9F4401 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B463C1353B68CE416A018 /* MultipartFormData.swift */; };
-		3A11CB601B7DF3A85C9CA512 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD01B45527A59BBB838310D /* Goal.swift */; };
-		3AA7613AA24DA8DA0C3505E6 /* HollowMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB02430EB0E4715FF45FD1 /* HollowMark.swift */; };
 		3B53571A30FD10FDC5B026AA /* CordonArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCED4F48980E9EAEB3E3BE /* CordonArchive.swift */; };
 		3CA1CF05A5FCA3973AAF4C56 /* Cordon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2113A1534F5CF89C0D5E6 /* Cordon.swift */; };
 		3DE310B73314789312EC620E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783E5B980921B3915395A9E /* StringEncoding+Alamofire.swift */; };
 		3EFD195A69E08E2BD8A02E32 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0044A3CDE37820E989234 /* EventMonitor.swift */; };
-		41030C29E0222CA5DA74A6C6 /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B002FE05455852F0C6A3C6 /* Wire.swift */; };
 		41F60D20F5FBEFC4D099BF72 /* WebSocketRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2CC81081D39C97B12DCB8 /* WebSocketRequest.swift */; };
-		439184D8E36F9998CFFF756D /* WatchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213F8CE021D14B1056EB3438 /* WatchRoot.swift */; };
 		446CAEFAAE39A4CB56E56C35 /* CoverScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC0CEC561574E810C181F5 /* CoverScreens.swift */; };
 		457A08AB00F22B8268D832F9 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA84497FCAB8BE263F2ECCCE /* Combine.swift */; };
 		480687C9BE34046D265FFAE4 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9080C4474702C9A6D3AD19F /* ServerTrustEvaluation.swift */; };
 		4BA0760091354ABAE451FE98 /* Tray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0FD6D441F7A7D2DAB187C /* Tray.swift */; };
 		4BB9CF4F2443BDB8E31BA756 /* CanopyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BA389F92DCF085813D8FB /* CanopyButtonStyle.swift */; };
-		52E05FF139F4DF9B9E5889EA /* CordonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA0FD2F13DCAD6F128C232 /* CordonDemo.swift */; };
 		543B4744426EF3E12BC65AE3 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47850CF26B43B83D2A71EF8 /* DataRequest.swift */; };
 		55543B1003B97EF99027BACD /* ParticleBackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A8B719D1B0803972E86F09 /* ParticleBackdropView.swift */; };
 		55C4B4460F891D5F3771B1B8 /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D98D0C259AB1A6E12E359A /* RequestCompression.swift */; };
 		561529E2A574C9F697FEA8D0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47893365975E27026B439CC4 /* Alamofire.framework */; };
-		582E24C57B42F84E7C3A8215 /* CordonArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCED4F48980E9EAEB3E3BE /* CordonArchive.swift */; };
 		61A700EF7AD501F80D158934 /* SecondarySheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C588798918128B56E5844 /* SecondarySheets.swift */; };
 		6210A8EFE05BC0A36840BCC8 /* CordonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BAE6E6963BAE4B792B9BC9 /* CordonStore.swift */; };
 		64825BA7D4CE38230030028E /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01808BB763732B9ACC5E5A /* ResponseSerialization.swift */; };
@@ -67,7 +58,6 @@
 		86248936F6AABB720B251A4E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699227BDCEFD97101A2211F /* Alamofire.swift */; };
 		8E123CAB5FA04CEF525D12B2 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1127B4F8FDE26F7CC39A9C /* URLConvertible+URLRequestConvertible.swift */; };
 		98E34A449CFF30F7BB0BA3DE /* HollowMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB02430EB0E4715FF45FD1 /* HollowMark.swift */; };
-		9D4C2CFF4053961D47EF8E0C /* DropMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629B6AF9FEF5515149EF3FF /* DropMark.swift */; };
 		9E2BB00DC7A85A91DAD5FB97 /* CordonDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AE3910F69FD90A4DC641D /* CordonDisk.swift */; };
 		A930934F58A2AA7B2E0C256C /* VineSpriteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCE4DC57A20F4AAEDA90726 /* VineSpriteScene.swift */; };
 		AC1FCED578EDB6899C8C2ED6 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD01B45527A59BBB838310D /* Goal.swift */; };
@@ -83,8 +73,6 @@
 		BE826B7E0F22ECEEF42DEBFF /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBDFCCA73585E37194BE784 /* AppConfiguration.swift */; };
 		BEEDE840C5131F8F898A98EC /* UploadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A0FCFF59B60C3740628B6D /* UploadRequest.swift */; };
 		C09204D0839B5BDD06AC47D8 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47893365975E27026B439CC4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C0B598EE36565F512A6418EA /* RipeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3487059F4019F836C5868A2 /* RipeMark.swift */; };
-		C2FE2A146CE1B019350ACFC8 /* CanopyTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297F65720BB2E8738E84FF72 /* CanopyTotal.swift */; };
 		C3E02CE8B754AE345032796E /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE3B179D88F9B3CB418472 /* RequestInterceptor.swift */; };
 		C5F48AD8ADF9C5CDEA1D21AD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A848B4110BBB968367BF8972 /* HTTPMethod.swift */; };
 		C89633DB212A4519908919BE /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C70897678F0B29F485430C /* APIConfig.swift */; };
@@ -94,13 +82,11 @@
 		CCA3CD10DEE41D72E0BEF4DF /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126C00239BBAB58D406180B /* DataCache.swift */; };
 		CD9995EC2B38E2258C0AE622 /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53920A4FF0BCBCA362A66E7B /* WebContentView.swift */; };
 		D0F9061510A016915E8B5B21 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D07776E04F30AB39A77E4 /* AuthenticationInterceptor.swift */; };
-		D4E75B1CBF97AEFE159D91A6 /* CordonWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7A33A5727E5EC0A2CD94726F /* CordonWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D4F7074E29EFD315F72AE44A /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97C5F2D7052521992781D /* Concurrency.swift */; };
 		D56F78A8A8609405022DBACE /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7799AB35E94B342A9DA55D4B /* DesignTokens.swift */; };
 		DE040F40953C540A16BD1F1B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79E47233CD24712D0B2D11 /* Response.swift */; };
 		E07CCB9104F6DE4634ECED78 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26FA1E9190907D7A450171 /* ParameterEncoding.swift */; };
 		E66DA7637538835197289A07 /* SessionVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73132693C05FFA18F4C693F9 /* SessionVault.swift */; };
-		E92DB9050D5B837FC9920A3C /* Cordon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2113A1534F5CF89C0D5E6 /* Cordon.swift */; };
 		EBC187F594A028C044C06C9F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643C4E0E5FA8CDB7102330B /* AlamofireExtended.swift */; };
 		ED03ECAB9E66223F690321EA /* DropMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629B6AF9FEF5515149EF3FF /* DropMark.swift */; };
 		F363B3AEFB2547EEBBB6B7CA /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9352B4E8B8CCA89D5B816 /* DispatchQueue+Alamofire.swift */; };
@@ -108,8 +94,6 @@
 		F464918784032AD0A2C93E8A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BF45269895B95B2871C7A /* PrivacyInfo.xcprivacy */; };
 		F4F5EB4EC16686AD59D02876 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15BC42D4C00FA4EBE31EAA /* Request.swift */; };
 		F50E23EAC82B305FA784B206 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB7E998685F02648DF8746 /* NetworkReachabilityManager.swift */; };
-		F64B96C63C2D1322BD4C0788 /* Tray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0FD6D441F7A7D2DAB187C /* Tray.swift */; };
-		F946148F1A6B7C41C6869893 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7799AB35E94B342A9DA55D4B /* DesignTokens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,13 +103,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 37505E9E0F568FD7F193607A;
 			remoteInfo = Alamofire;
-		};
-		853B31C5542CE351927A1E8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8D4B25C855A090DCD97F24D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7D5B998E8E01A55E764525ED;
-			remoteInfo = CordonWatch;
 		};
 		D11D002D0C2207FF7525D0BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -137,17 +114,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		08AE6F75FE9565BDCCC7148C /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				D4E75B1CBF97AEFE159D91A6 /* CordonWatch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6AD90F3E91532203B0B91C89 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,7 +138,6 @@
 		1C24B29BC61D9DF5E012E149 /* DownloadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadRequest.swift; sourceTree = "<group>"; };
 		1DBDFCCA73585E37194BE784 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		1DDE2C7865E6C99D8D949041 /* CordonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonTests.swift; sourceTree = "<group>"; };
-		213F8CE021D14B1056EB3438 /* WatchRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRoot.swift; sourceTree = "<group>"; };
 		22794F74CD26471FB1D3C902 /* SetMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMark.swift; sourceTree = "<group>"; };
 		2699227BDCEFD97101A2211F /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		297F65720BB2E8738E84FF72 /* CanopyTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanopyTotal.swift; sourceTree = "<group>"; };
@@ -202,7 +167,6 @@
 		73269351DF9DB62D72143F12 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		7799AB35E94B342A9DA55D4B /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
 		7847A24B90F70E8B9F1F77B1 /* DataEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEncoding.swift; sourceTree = "<group>"; };
-		7A33A5727E5EC0A2CD94726F /* CordonWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CordonWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA2CC81081D39C97B12DCB8 /* WebSocketRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketRequest.swift; sourceTree = "<group>"; };
 		7E4BF45269895B95B2871C7A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		860D88C92636550EBCCA44C3 /* RequestTaskMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTaskMap.swift; sourceTree = "<group>"; };
@@ -271,18 +235,9 @@
 			children = (
 				F341BD6076271A13848DC74B /* Cordon */,
 				510ABB0F71146B02C2809C22 /* CordonTests */,
-				3104A8E715EAFF7AFEDEE6C0 /* CordonWatch */,
 				EE3B7929A1F921514C5E1C2D /* Vendor */,
 				DFEA392E33CDFD664E443722 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		3104A8E715EAFF7AFEDEE6C0 /* CordonWatch */ = {
-			isa = PBXGroup;
-			children = (
-				213F8CE021D14B1056EB3438 /* WatchRoot.swift */,
-			);
-			path = CordonWatch;
 			sourceTree = "<group>";
 		};
 		49B0689723402BD4BBD21D2A /* Alamofire */ = {
@@ -428,7 +383,6 @@
 				47893365975E27026B439CC4 /* Alamofire.framework */,
 				E3C63AB95E6289EAE2677AA2 /* Cordon.app */,
 				36BB832730FB9A9C17E549A9 /* CordonTests.xctest */,
-				7A33A5727E5EC0A2CD94726F /* CordonWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -495,23 +449,6 @@
 			productReference = 47893365975E27026B439CC4 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework.static";
 		};
-		7D5B998E8E01A55E764525ED /* CordonWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8B09DFC0BD777AF29DD8AE4 /* Build configuration list for PBXNativeTarget "CordonWatch" */;
-			buildPhases = (
-				17E6746BFDC9D5A311C135C9 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CordonWatch;
-			packageProductDependencies = (
-			);
-			productName = CordonWatch;
-			productReference = 7A33A5727E5EC0A2CD94726F /* CordonWatch.app */;
-			productType = "com.apple.product-type.application";
-		};
 		8FB519A20A74ACF2BC254DDA /* CordonTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A98C712EC1C7D75A4D058FD9 /* Build configuration list for PBXNativeTarget "CordonTests" */;
@@ -538,12 +475,10 @@
 				38E0E258019E21DF67973345 /* Resources */,
 				34499B7C28FFB26F97D25697 /* Frameworks */,
 				6AD90F3E91532203B0B91C89 /* Embed Frameworks */,
-				08AE6F75FE9565BDCCC7148C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9582D24E5914C462ED2D03FE /* PBXTargetDependency */,
 				2A45D1223A9A1D011B932BC1 /* PBXTargetDependency */,
 			);
 			name = Cordon;
@@ -563,9 +498,6 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					37505E9E0F568FD7F193607A = {
-						ProvisioningStyle = Automatic;
-					};
-					7D5B998E8E01A55E764525ED = {
 						ProvisioningStyle = Automatic;
 					};
 					8FB519A20A74ACF2BC254DDA = {
@@ -592,7 +524,6 @@
 			targets = (
 				37505E9E0F568FD7F193607A /* Alamofire */,
 				D06BF9FB0576D707AFF4FD4A /* Cordon */,
-				7D5B998E8E01A55E764525ED /* CordonWatch */,
 				8FB519A20A74ACF2BC254DDA /* CordonTests */,
 			);
 		};
@@ -618,28 +549,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17E6746BFDC9D5A311C135C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2FE2A146CE1B019350ACFC8 /* CanopyTotal.swift in Sources */,
-				E92DB9050D5B837FC9920A3C /* Cordon.swift in Sources */,
-				582E24C57B42F84E7C3A8215 /* CordonArchive.swift in Sources */,
-				23A07D9D78C3E1DB3A623A2D /* CordonCanvas.swift in Sources */,
-				52E05FF139F4DF9B9E5889EA /* CordonDemo.swift in Sources */,
-				F946148F1A6B7C41C6869893 /* DesignTokens.swift in Sources */,
-				9D4C2CFF4053961D47EF8E0C /* DropMark.swift in Sources */,
-				3A11CB601B7DF3A85C9CA512 /* Goal.swift in Sources */,
-				3AA7613AA24DA8DA0C3505E6 /* HollowMark.swift in Sources */,
-				1AF77D6F1243B38701083548 /* ReviewLaunch.swift in Sources */,
-				C0B598EE36565F512A6418EA /* RipeMark.swift in Sources */,
-				0C237C1CB19D2F940F092DAE /* SetMark.swift in Sources */,
-				F64B96C63C2D1322BD4C0788 /* Tray.swift in Sources */,
-				439184D8E36F9998CFFF756D /* WatchRoot.swift in Sources */,
-				41030C29E0222CA5DA74A6C6 /* Wire.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3DA6746F16CBF720861BCC01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -752,11 +661,6 @@
 			target = 37505E9E0F568FD7F193607A /* Alamofire */;
 			targetProxy = 645BDDDC1D61E57285147823 /* PBXContainerItemProxy */;
 		};
-		9582D24E5914C462ED2D03FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7D5B998E8E01A55E764525ED /* CordonWatch */;
-			targetProxy = 853B31C5542CE351927A1E8A /* PBXContainerItemProxy */;
-		};
 		B705C5BC358379488C98F74E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D06BF9FB0576D707AFF4FD4A /* Cordon */;
@@ -773,7 +677,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
+				INFOPLIST_KEY_CFBundleDisplayName = 1Wordon;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -804,7 +708,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
+				INFOPLIST_KEY_CFBundleDisplayName = 1Wordon;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -904,11 +808,11 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.2;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
@@ -939,7 +843,6 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				MARKETING_VERSION = 1.0.0;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -952,6 +855,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.Alamofire;
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -961,26 +865,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Debug;
-		};
-		B5DE288AFF127472CC0E6AF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cordon.canopy;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.watchkitapp;
-				PRODUCT_NAME = CordonWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_STRICT_CONCURRENCY = complete;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
@@ -990,7 +874,6 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				MARKETING_VERSION = 1.0.0;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1003,6 +886,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.Alamofire;
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -1012,26 +896,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Release;
-		};
-		F41A23D60EF3080AB0E4054A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cordon.canopy;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.watchkitapp;
-				PRODUCT_NAME = CordonWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_STRICT_CONCURRENCY = complete;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
@@ -1084,11 +948,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.2;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
@@ -1100,15 +964,6 @@
 			buildConfigurations = (
 				29F0514E9B7787902C6B4764 /* Debug */,
 				5D13B58410BD57B438DD2D3C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		A8B09DFC0BD777AF29DD8AE4 /* Build configuration list for PBXNativeTarget "CordonWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5DE288AFF127472CC0E6AF7 /* Debug */,
-				F41A23D60EF3080AB0E4054A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

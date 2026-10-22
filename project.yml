@@ -3,7 +3,6 @@ options:
   bundleIdPrefix: com.cordon
   deploymentTarget:
     iOS: "17.0"
-    watchOS: "26.0"
   createIntermediateGroups: true
 settings:
   base:
@@ -37,8 +36,6 @@ targets:
     sources:
       - path: Cordon
     dependencies:
-      - target: CordonWatch
-        embed: true
       - target: Alamofire
     resources:
       - path: PrivacyInfo.xcprivacy
@@ -61,38 +58,6 @@ targets:
         SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
         CURRENT_PROJECT_VERSION: 1
         MARKETING_VERSION: "1.0.0"
-        SWIFT_STRICT_CONCURRENCY: complete
-        CODE_SIGN_STYLE: Automatic
-  CordonWatch:
-    type: application
-    platform: watchOS
-    sources:
-      - path: Cordon/ReviewLaunch.swift
-      - path: Cordon/DesignTokens.swift
-      - path: Cordon/Cordon.swift
-      - path: Cordon/CordonArchive.swift
-      - path: Cordon/CordonCanvas.swift
-      - path: Cordon/CordonDemo.swift
-      - path: Cordon/Goal.swift
-      - path: Cordon/DropMark.swift
-      - path: Cordon/SetMark.swift
-      - path: Cordon/HollowMark.swift
-      - path: Cordon/RipeMark.swift
-      - path: Cordon/Tray.swift
-      - path: Cordon/CanopyTotal.swift
-      - path: Cordon/Wire.swift
-      - path: CordonWatch
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.cordon.canopy.watchkitapp
-        PRODUCT_NAME: CordonWatch
-        GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_CFBundleDisplayName: 1Wordon
-        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: com.cordon.canopy
-        CURRENT_PROJECT_VERSION: 1
-        MARKETING_VERSION: "1.0.0"
-        WATCHOS_DEPLOYMENT_TARGET: "26.0"
-        TARGETED_DEVICE_FAMILY: "4"
         SWIFT_STRICT_CONCURRENCY: complete
         CODE_SIGN_STYLE: Automatic
   CordonTests:
@@ -121,7 +86,3 @@ schemes:
     test:
       targets:
         - CordonTests
-  CordonWatch:
-    build:
-      targets:
-        CordonWatch: all
