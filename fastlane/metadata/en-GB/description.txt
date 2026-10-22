@@ -1,0 +1,19 @@
+1Wordon is a dark-screen savings notebook for someone who wants to set aside loose cash by hand. You name a goal, record cash drops into a waiting tray, then commit the whole tray so a vine grows towards that goal. Nothing is linked to a bank.
+
+• Name a savings goal, with a target, a 3-letter currency, and an optional vine number.
+• Keep several goals and switch the current one from the garden chips or from "Goals".
+• Record a cash drop by typing an amount or tapping a quick amount. A drop waits in the tray and does not grow the vine.
+• "Set Canopy" commits the whole waiting tray into "Saved so far" and grows the vine.
+• "Peel" removes only the latest drop that has not been committed.
+• Phase "Open" means nothing is waiting. "Waiting" means cash is in the tray. "Ripe" means saved cash has reached the target.
+• Quartile markers at "25%", "50%", "75%", and "100%" turn "Lit" as the goal fills.
+• "History" lists commits and how many refused commits this goal has.
+• Change the quick amounts in "Settings".
+• "Export CSV" shares a text file of the records.
+• "Show intro" replays the three pages.
+• "Reset all data" deletes goals and cash records on this device and shows the intro again.
+• "Contact" opens the support page.
+• The garden is still there after you leave the app.
+• The Apple Watch app is also named "1Wordon" and always shows a fixed sample. It does not follow the phone garden.
+
+On iPhone and iPad the garden starts empty. Goals, drops, and commits stay on this device.

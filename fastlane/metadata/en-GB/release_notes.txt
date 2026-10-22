@@ -1,0 +1,11 @@
+Version 1.0 is the first release of Cordon, a dark-screen savings notebook for loose cash kept by hand.
+
+• Name a savings goal, with a target, a 3-letter currency, and an optional vine number.
+• Record a cash drop by typing an amount or tapping a quick amount. A drop waits in the tray and does not grow the vine.
+• "Set Canopy" commits the whole waiting tray into "Saved so far" and grows the vine.
+• "Peel" removes only the latest drop that has not been committed.
+• Phases "Open", "Waiting", and "Ripe", with markers at "25%", "50%", "75%", and "100%".
+• "History" lists commits. "Settings" changes quick amounts, shares an "Export CSV" text file, replays the intro, and can "Reset all data" on this device.
+• The Apple Watch app shows a fixed sample and does not follow the phone garden.
+
+Nothing is linked to a bank. On iPhone and iPad the garden starts empty and remains on this device after you leave the app.

@@ -1,0 +1,124 @@
+name: Cordon
+options:
+  bundleIdPrefix: com.cordon
+  deploymentTarget:
+    iOS: "17.0"
+    watchOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.2"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Alamofire:
+    type: framework.static
+    platform: iOS
+    sources:
+      - path: Vendor/Alamofire
+        excludes:
+          - Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.cordon.canopy.Alamofire
+        PRODUCT_NAME: Alamofire
+        PRODUCT_MODULE_NAME: Alamofire
+        GENERATE_INFOPLIST_FILE: YES
+        DEFINES_MODULE: YES
+        SWIFT_VERSION: "5.0"
+        SWIFT_STRICT_CONCURRENCY: minimal
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        MACH_O_TYPE: staticlib
+        CODE_SIGN_STYLE: Automatic
+  Cordon:
+    type: application
+    platform: iOS
+    sources:
+      - path: Cordon
+    dependencies:
+      - target: CordonWatch
+        embed: true
+      - target: Alamofire
+    resources:
+      - path: PrivacyInfo.xcprivacy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.cordon.canopy
+        PRODUCT_NAME: Cordon
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_CFBundleDisplayName: 1Wordon
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.finance
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        CODE_SIGN_STYLE: Automatic
+  CordonWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: Cordon/ReviewLaunch.swift
+      - path: Cordon/DesignTokens.swift
+      - path: Cordon/Cordon.swift
+      - path: Cordon/CordonArchive.swift
+      - path: Cordon/CordonCanvas.swift
+      - path: Cordon/CordonDemo.swift
+      - path: Cordon/Goal.swift
+      - path: Cordon/DropMark.swift
+      - path: Cordon/SetMark.swift
+      - path: Cordon/HollowMark.swift
+      - path: Cordon/RipeMark.swift
+      - path: Cordon/Tray.swift
+      - path: Cordon/CanopyTotal.swift
+      - path: Cordon/Wire.swift
+      - path: CordonWatch
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.cordon.canopy.watchkitapp
+        PRODUCT_NAME: CordonWatch
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: 1Wordon
+        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: com.cordon.canopy
+        WATCHOS_DEPLOYMENT_TARGET: "26.0"
+        TARGETED_DEVICE_FAMILY: "4"
+        SWIFT_STRICT_CONCURRENCY: complete
+        CODE_SIGN_STYLE: Automatic
+  CordonTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: CordonTests
+    dependencies:
+      - target: Cordon
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.cordon.canopy.tests
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "6.2"
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Cordon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cordon"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  Cordon:
+    build:
+      targets:
+        Cordon: all
+        CordonTests: [test]
+    test:
+      targets:
+        - CordonTests
+  CordonWatch:
+    build:
+      targets:
+        CordonWatch: all

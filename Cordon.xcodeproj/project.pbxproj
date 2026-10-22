@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007F19E35FA2D2FAAB0CA957 /* CanopyTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297F65720BB2E8738E84FF72 /* CanopyTotal.swift */; };
+		0549A1FE101A1881350ADD60 /* DownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C24B29BC61D9DF5E012E149 /* DownloadRequest.swift */; };
+		07D2EF38DC69FC856AC84534 /* CanopyMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61699AF6C8B6D956B064808B /* CanopyMetrics.swift */; };
+		080E5A935AAB2D0C3E193505 /* CanopyRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5C1AE425FC63CF17B4D06A /* CanopyRootView.swift */; };
+		0A815819AC529AE4D75038BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E74EFB53A44B3D3A820F11 /* ContentView.swift */; };
+		0C237C1CB19D2F940F092DAE /* SetMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22794F74CD26471FB1D3C902 /* SetMark.swift */; };
+		0CD08219FAF347DA5AA3F0F4 /* DataStreamRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B026413996FF5DF52FD75 /* DataStreamRequest.swift */; };
+		0CD38F86AA8E87020A47EB26 /* ReviewScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CDD7627599E5FF0F7B6C80 /* ReviewScreenRouter.swift */; };
+		1A0B4D4E756083AAC6E62D6A /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DF42EF473FB6B7C691F0 /* MultipartUpload.swift */; };
+		1AF77D6F1243B38701083548 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEFA5CBA2A6DC585EC5058 /* ReviewLaunch.swift */; };
+		1D8A975CC97E8158EA6794A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6EE2BC7FA3B2485D8240B /* AppDelegate.swift */; };
+		1FF1090DDDFF263657A39127 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046656C44648A44DD64D3FF /* Protected.swift */; };
+		22F406D23EF394A11FFDEBC6 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD669FD5F1CAE5D3E9FC14 /* Notifications.swift */; };
+		23A07D9D78C3E1DB3A623A2D /* CordonCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0F1F8BD0DF172E8762AEF /* CordonCanvas.swift */; };
+		27EF55F0F32A3559E3DB30F4 /* OfflineRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA01CC3D35EF5401344998 /* OfflineRetrier.swift */; };
+		2965C93797EA38079DFF3DA8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD37EF1FBCDB15417855270 /* SessionDelegate.swift */; };
+		29FAB5BAC86A9EDD91F6C72D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C15EB3D8E546ABEC9380E7 /* Validation.swift */; };
+		2EB7EB64EE6027E5F5412664 /* CordonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA0FD2F13DCAD6F128C232 /* CordonDemo.swift */; };
+		30D6A55D36DC6FAAE880D8D7 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860D88C92636550EBCCA44C3 /* RequestTaskMap.swift */; };
+		3842AB56FDA3A9F7AD9F4401 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B463C1353B68CE416A018 /* MultipartFormData.swift */; };
+		3A11CB601B7DF3A85C9CA512 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD01B45527A59BBB838310D /* Goal.swift */; };
+		3AA7613AA24DA8DA0C3505E6 /* HollowMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB02430EB0E4715FF45FD1 /* HollowMark.swift */; };
+		3B53571A30FD10FDC5B026AA /* CordonArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCED4F48980E9EAEB3E3BE /* CordonArchive.swift */; };
+		3CA1CF05A5FCA3973AAF4C56 /* Cordon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2113A1534F5CF89C0D5E6 /* Cordon.swift */; };
+		3DE310B73314789312EC620E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783E5B980921B3915395A9E /* StringEncoding+Alamofire.swift */; };
+		3EFD195A69E08E2BD8A02E32 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0044A3CDE37820E989234 /* EventMonitor.swift */; };
+		41030C29E0222CA5DA74A6C6 /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B002FE05455852F0C6A3C6 /* Wire.swift */; };
+		41F60D20F5FBEFC4D099BF72 /* WebSocketRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2CC81081D39C97B12DCB8 /* WebSocketRequest.swift */; };
+		439184D8E36F9998CFFF756D /* WatchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213F8CE021D14B1056EB3438 /* WatchRoot.swift */; };
+		446CAEFAAE39A4CB56E56C35 /* CoverScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC0CEC561574E810C181F5 /* CoverScreens.swift */; };
+		457A08AB00F22B8268D832F9 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA84497FCAB8BE263F2ECCCE /* Combine.swift */; };
+		480687C9BE34046D265FFAE4 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9080C4474702C9A6D3AD19F /* ServerTrustEvaluation.swift */; };
+		4BA0760091354ABAE451FE98 /* Tray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0FD6D441F7A7D2DAB187C /* Tray.swift */; };
+		4BB9CF4F2443BDB8E31BA756 /* CanopyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BA389F92DCF085813D8FB /* CanopyButtonStyle.swift */; };
+		52E05FF139F4DF9B9E5889EA /* CordonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA0FD2F13DCAD6F128C232 /* CordonDemo.swift */; };
+		543B4744426EF3E12BC65AE3 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47850CF26B43B83D2A71EF8 /* DataRequest.swift */; };
+		55543B1003B97EF99027BACD /* ParticleBackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A8B719D1B0803972E86F09 /* ParticleBackdropView.swift */; };
+		55C4B4460F891D5F3771B1B8 /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D98D0C259AB1A6E12E359A /* RequestCompression.swift */; };
+		561529E2A574C9F697FEA8D0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47893365975E27026B439CC4 /* Alamofire.framework */; };
+		582E24C57B42F84E7C3A8215 /* CordonArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCED4F48980E9EAEB3E3BE /* CordonArchive.swift */; };
+		61A700EF7AD501F80D158934 /* SecondarySheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C588798918128B56E5844 /* SecondarySheets.swift */; };
+		6210A8EFE05BC0A36840BCC8 /* CordonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BAE6E6963BAE4B792B9BC9 /* CordonStore.swift */; };
+		64825BA7D4CE38230030028E /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01808BB763732B9ACC5E5A /* ResponseSerialization.swift */; };
+		665551AC79DACDB3EE66067B /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D80A1827E4B6C5D34B2FB /* URLRequest+Alamofire.swift */; };
+		6786E0F9C7E6E8D46AE3B089 /* CordonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5896C6211709C69468CB7 /* CordonApp.swift */; };
+		69BBF3995338CE173E04493A /* CordonCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0F1F8BD0DF172E8762AEF /* CordonCanvas.swift */; };
+		6B6C3283CAFBC4A2E250DADF /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587F926072AB398EEE2E52 /* RetryPolicy.swift */; };
+		6BC52180C79B844604B23E9F /* DataEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847A24B90F70E8B9F1F77B1 /* DataEncoding.swift */; };
+		6D3F2EDDCBF85D87B5ED0A08 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6494AE00BB75376F753E05 /* CachedResponseHandler.swift */; };
+		701C2F8B4099EB4B7B7B1303 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AEBD76A3399DF9DD2D74C /* Session.swift */; };
+		71DF7C5B2118265359A8241F /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E457C9D198FC8D9C1029B /* Result+Alamofire.swift */; };
+		7219F682B1E769D2E633B3B1 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC80D9B2460EE1B59AAA794 /* URLSessionConfiguration+Alamofire.swift */; };
+		79EC3EBD75E433519CA6D998 /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B002FE05455852F0C6A3C6 /* Wire.swift */; };
+		7AECDD5670E624AA131A42E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F581295E8EDD2336E0D7C3D /* Assets.xcassets */; };
+		7E4830A59E98084D093002AD /* RipeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3487059F4019F836C5868A2 /* RipeMark.swift */; };
+		7FB6BAA6173C30799793880C /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AA92FB7E06FF2AFBD7AB3 /* DisplayMode.swift */; };
+		81E679C9D24425EE1B89B7DE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4082D6E5E7711FE659788CB1 /* NetworkService.swift */; };
+		86248936F6AABB720B251A4E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699227BDCEFD97101A2211F /* Alamofire.swift */; };
+		8E123CAB5FA04CEF525D12B2 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1127B4F8FDE26F7CC39A9C /* URLConvertible+URLRequestConvertible.swift */; };
+		98E34A449CFF30F7BB0BA3DE /* HollowMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB02430EB0E4715FF45FD1 /* HollowMark.swift */; };
+		9D4C2CFF4053961D47EF8E0C /* DropMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629B6AF9FEF5515149EF3FF /* DropMark.swift */; };
+		9E2BB00DC7A85A91DAD5FB97 /* CordonDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AE3910F69FD90A4DC641D /* CordonDisk.swift */; };
+		A930934F58A2AA7B2E0C256C /* VineSpriteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCE4DC57A20F4AAEDA90726 /* VineSpriteScene.swift */; };
+		AC1FCED578EDB6899C8C2ED6 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD01B45527A59BBB838310D /* Goal.swift */; };
+		AC44D92BEECC7736C8447C5F /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E7DD918DC11C8E1CB078FA /* HTTPHeaders.swift */; };
+		B128A0AFF012072C90C3CB34 /* CordonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE2C7865E6C99D8D949041 /* CordonTests.swift */; };
+		B233CB95FF832C20AB53AA01 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57565E907E0A7E259D6A77CB /* AppRouter.swift */; };
+		B33189C8FCCA4B3167A16345 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19D0D1E9490202FA51A425 /* CSVExporter.swift */; };
+		B3FBD0880FC53176EBA04592 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEFA5CBA2A6DC585EC5058 /* ReviewLaunch.swift */; };
+		B49D70358882A042FE8A92A1 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73269351DF9DB62D72143F12 /* URLEncodedFormEncoder.swift */; };
+		B51666275E554470DFA8D396 /* FusedActionStripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A70593D480A4FE80AE4B01 /* FusedActionStripCard.swift */; };
+		B8649488647CC8D48B672999 /* SetMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22794F74CD26471FB1D3C902 /* SetMark.swift */; };
+		BDE7B28E434061A287633BEC /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738BCB8947C9F728DE525E1 /* OperationQueue+Alamofire.swift */; };
+		BE826B7E0F22ECEEF42DEBFF /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBDFCCA73585E37194BE784 /* AppConfiguration.swift */; };
+		BEEDE840C5131F8F898A98EC /* UploadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A0FCFF59B60C3740628B6D /* UploadRequest.swift */; };
+		C09204D0839B5BDD06AC47D8 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47893365975E27026B439CC4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0B598EE36565F512A6418EA /* RipeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3487059F4019F836C5868A2 /* RipeMark.swift */; };
+		C2FE2A146CE1B019350ACFC8 /* CanopyTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297F65720BB2E8738E84FF72 /* CanopyTotal.swift */; };
+		C3E02CE8B754AE345032796E /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE3B179D88F9B3CB418472 /* RequestInterceptor.swift */; };
+		C5F48AD8ADF9C5CDEA1D21AD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A848B4110BBB968367BF8972 /* HTTPMethod.swift */; };
+		C89633DB212A4519908919BE /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C70897678F0B29F485430C /* APIConfig.swift */; };
+		C8CA3C9188223F28F39B114F /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DF5FC8B1DD227AD39D73CA /* AFError.swift */; };
+		CA2544C9AE5BD20F50AC08F1 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2CBB23F7873E1D57319DA /* RedirectHandler.swift */; };
+		CA6A9F167FF6B389ED65D04B /* StockPieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0BFF6142DC9B8FB5C7113 /* StockPieces.swift */; };
+		CCA3CD10DEE41D72E0BEF4DF /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126C00239BBAB58D406180B /* DataCache.swift */; };
+		CD9995EC2B38E2258C0AE622 /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53920A4FF0BCBCA362A66E7B /* WebContentView.swift */; };
+		D0F9061510A016915E8B5B21 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D07776E04F30AB39A77E4 /* AuthenticationInterceptor.swift */; };
+		D4E75B1CBF97AEFE159D91A6 /* CordonWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7A33A5727E5EC0A2CD94726F /* CordonWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4F7074E29EFD315F72AE44A /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B97C5F2D7052521992781D /* Concurrency.swift */; };
+		D56F78A8A8609405022DBACE /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7799AB35E94B342A9DA55D4B /* DesignTokens.swift */; };
+		DE040F40953C540A16BD1F1B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79E47233CD24712D0B2D11 /* Response.swift */; };
+		E07CCB9104F6DE4634ECED78 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26FA1E9190907D7A450171 /* ParameterEncoding.swift */; };
+		E66DA7637538835197289A07 /* SessionVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73132693C05FFA18F4C693F9 /* SessionVault.swift */; };
+		E92DB9050D5B837FC9920A3C /* Cordon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2113A1534F5CF89C0D5E6 /* Cordon.swift */; };
+		EBC187F594A028C044C06C9F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643C4E0E5FA8CDB7102330B /* AlamofireExtended.swift */; };
+		ED03ECAB9E66223F690321EA /* DropMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D629B6AF9FEF5515149EF3FF /* DropMark.swift */; };
+		F363B3AEFB2547EEBBB6B7CA /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C9352B4E8B8CCA89D5B816 /* DispatchQueue+Alamofire.swift */; };
+		F46349E64EF2E348C18202B8 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3493DE1D3885DB11233F2BAF /* ParameterEncoder.swift */; };
+		F464918784032AD0A2C93E8A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BF45269895B95B2871C7A /* PrivacyInfo.xcprivacy */; };
+		F4F5EB4EC16686AD59D02876 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15BC42D4C00FA4EBE31EAA /* Request.swift */; };
+		F50E23EAC82B305FA784B206 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB7E998685F02648DF8746 /* NetworkReachabilityManager.swift */; };
+		F64B96C63C2D1322BD4C0788 /* Tray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0FD6D441F7A7D2DAB187C /* Tray.swift */; };
+		F946148F1A6B7C41C6869893 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7799AB35E94B342A9DA55D4B /* DesignTokens.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		645BDDDC1D61E57285147823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D4B25C855A090DCD97F24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37505E9E0F568FD7F193607A;
+			remoteInfo = Alamofire;
+		};
+		853B31C5542CE351927A1E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D4B25C855A090DCD97F24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D5B998E8E01A55E764525ED;
+			remoteInfo = CordonWatch;
+		};
+		D11D002D0C2207FF7525D0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D4B25C855A090DCD97F24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06BF9FB0576D707AFF4FD4A;
+			remoteInfo = Cordon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08AE6F75FE9565BDCCC7148C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D4E75B1CBF97AEFE159D91A6 /* CordonWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD90F3E91532203B0B91C89 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C09204D0839B5BDD06AC47D8 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0046656C44648A44DD64D3FF /* Protected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protected.swift; sourceTree = "<group>"; };
+		03FA0FD2F13DCAD6F128C232 /* CordonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonDemo.swift; sourceTree = "<group>"; };
+		04587F926072AB398EEE2E52 /* RetryPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryPolicy.swift; sourceTree = "<group>"; };
+		0643C4E0E5FA8CDB7102330B /* AlamofireExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireExtended.swift; sourceTree = "<group>"; };
+		10A70593D480A4FE80AE4B01 /* FusedActionStripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusedActionStripCard.swift; sourceTree = "<group>"; };
+		10A8B719D1B0803972E86F09 /* ParticleBackdropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleBackdropView.swift; sourceTree = "<group>"; };
+		1A1127B4F8FDE26F7CC39A9C /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		1C24B29BC61D9DF5E012E149 /* DownloadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadRequest.swift; sourceTree = "<group>"; };
+		1DBDFCCA73585E37194BE784 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		1DDE2C7865E6C99D8D949041 /* CordonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonTests.swift; sourceTree = "<group>"; };
+		213F8CE021D14B1056EB3438 /* WatchRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRoot.swift; sourceTree = "<group>"; };
+		22794F74CD26471FB1D3C902 /* SetMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMark.swift; sourceTree = "<group>"; };
+		2699227BDCEFD97101A2211F /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		297F65720BB2E8738E84FF72 /* CanopyTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanopyTotal.swift; sourceTree = "<group>"; };
+		2F581295E8EDD2336E0D7C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32AB7E998685F02648DF8746 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		3493DE1D3885DB11233F2BAF /* ParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
+		36BB832730FB9A9C17E549A9 /* CordonTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CordonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCC0CEC561574E810C181F5 /* CoverScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverScreens.swift; sourceTree = "<group>"; };
+		4082D6E5E7711FE659788CB1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		42D7DF42EF473FB6B7C691F0 /* MultipartUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartUpload.swift; sourceTree = "<group>"; };
+		44B2113A1534F5CF89C0D5E6 /* Cordon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordon.swift; sourceTree = "<group>"; };
+		45DF5FC8B1DD227AD39D73CA /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		47893365975E27026B439CC4 /* Alamofire.framework */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AD669FD5F1CAE5D3E9FC14 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		50A2CBB23F7873E1D57319DA /* RedirectHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectHandler.swift; sourceTree = "<group>"; };
+		53920A4FF0BCBCA362A66E7B /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
+		56FA01CC3D35EF5401344998 /* OfflineRetrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineRetrier.swift; sourceTree = "<group>"; };
+		57565E907E0A7E259D6A77CB /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		59CDD7627599E5FF0F7B6C80 /* ReviewScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenRouter.swift; sourceTree = "<group>"; };
+		5D2B463C1353B68CE416A018 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		61699AF6C8B6D956B064808B /* CanopyMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanopyMetrics.swift; sourceTree = "<group>"; };
+		68C0FD6D441F7A7D2DAB187C /* Tray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tray.swift; sourceTree = "<group>"; };
+		6A01808BB763732B9ACC5E5A /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		6EFEFA5CBA2A6DC585EC5058 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		706BA389F92DCF085813D8FB /* CanopyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanopyButtonStyle.swift; sourceTree = "<group>"; };
+		73132693C05FFA18F4C693F9 /* SessionVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionVault.swift; sourceTree = "<group>"; };
+		73269351DF9DB62D72143F12 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		7799AB35E94B342A9DA55D4B /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		7847A24B90F70E8B9F1F77B1 /* DataEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEncoding.swift; sourceTree = "<group>"; };
+		7A33A5727E5EC0A2CD94726F /* CordonWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CordonWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA2CC81081D39C97B12DCB8 /* WebSocketRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketRequest.swift; sourceTree = "<group>"; };
+		7E4BF45269895B95B2871C7A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		860D88C92636550EBCCA44C3 /* RequestTaskMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTaskMap.swift; sourceTree = "<group>"; };
+		8A2AA92FB7E06FF2AFBD7AB3 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		8E0B026413996FF5DF52FD75 /* DataStreamRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStreamRequest.swift; sourceTree = "<group>"; };
+		8EFE3B179D88F9B3CB418472 /* RequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInterceptor.swift; sourceTree = "<group>"; };
+		9126C00239BBAB58D406180B /* DataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
+		98E7DD918DC11C8E1CB078FA /* HTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		9B6494AE00BB75376F753E05 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedResponseHandler.swift; sourceTree = "<group>"; };
+		9C5C1AE425FC63CF17B4D06A /* CanopyRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanopyRootView.swift; sourceTree = "<group>"; };
+		9C79E47233CD24712D0B2D11 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		9E4D80A1827E4B6C5D34B2FB /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		A848B4110BBB968367BF8972 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		A94D07776E04F30AB39A77E4 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		AB19D0D1E9490202FA51A425 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		ACD01B45527A59BBB838310D /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		AE15BC42D4C00FA4EBE31EAA /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B47850CF26B43B83D2A71EF8 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		B47C588798918128B56E5844 /* SecondarySheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondarySheets.swift; sourceTree = "<group>"; };
+		B6A0FCFF59B60C3740628B6D /* UploadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadRequest.swift; sourceTree = "<group>"; };
+		B7C0044A3CDE37820E989234 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		B86AEBD76A3399DF9DD2D74C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		B9080C4474702C9A6D3AD19F /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		B9C70897678F0B29F485430C /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		BA84497FCAB8BE263F2ECCCE /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		BAC80D9B2460EE1B59AAA794 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		C1B97C5F2D7052521992781D /* Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
+		C61E457C9D198FC8D9C1029B /* Result+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Alamofire.swift"; sourceTree = "<group>"; };
+		C7C15EB3D8E546ABEC9380E7 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		C8BAE6E6963BAE4B792B9BC9 /* CordonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonStore.swift; sourceTree = "<group>"; };
+		CDB0F1F8BD0DF172E8762AEF /* CordonCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonCanvas.swift; sourceTree = "<group>"; };
+		CE26FA1E9190907D7A450171 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		D629B6AF9FEF5515149EF3FF /* DropMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropMark.swift; sourceTree = "<group>"; };
+		D738BCB8947C9F728DE525E1 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		D9AB02430EB0E4715FF45FD1 /* HollowMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowMark.swift; sourceTree = "<group>"; };
+		D9F5896C6211709C69468CB7 /* CordonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonApp.swift; sourceTree = "<group>"; };
+		DDD37EF1FBCDB15417855270 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		E0D98D0C259AB1A6E12E359A /* RequestCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCompression.swift; sourceTree = "<group>"; };
+		E2E74EFB53A44B3D3A820F11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3487059F4019F836C5868A2 /* RipeMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeMark.swift; sourceTree = "<group>"; };
+		E3C63AB95E6289EAE2677AA2 /* Cordon.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cordon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B002FE05455852F0C6A3C6 /* Wire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wire.swift; sourceTree = "<group>"; };
+		E4C9352B4E8B8CCA89D5B816 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		EBCE4DC57A20F4AAEDA90726 /* VineSpriteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineSpriteScene.swift; sourceTree = "<group>"; };
+		F44AE3910F69FD90A4DC641D /* CordonDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonDisk.swift; sourceTree = "<group>"; };
+		F783E5B980921B3915395A9E /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		F9CCED4F48980E9EAEB3E3BE /* CordonArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordonArchive.swift; sourceTree = "<group>"; };
+		FBA6EE2BC7FA3B2485D8240B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDA0BFF6142DC9B8FB5C7113 /* StockPieces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPieces.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34499B7C28FFB26F97D25697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561529E2A574C9F697FEA8D0 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15ACF58F731FF06AB7653E8D = {
+			isa = PBXGroup;
+			children = (
+				F341BD6076271A13848DC74B /* Cordon */,
+				510ABB0F71146B02C2809C22 /* CordonTests */,
+				3104A8E715EAFF7AFEDEE6C0 /* CordonWatch */,
+				EE3B7929A1F921514C5E1C2D /* Vendor */,
+				DFEA392E33CDFD664E443722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3104A8E715EAFF7AFEDEE6C0 /* CordonWatch */ = {
+			isa = PBXGroup;
+			children = (
+				213F8CE021D14B1056EB3438 /* WatchRoot.swift */,
+			);
+			path = CordonWatch;
+			sourceTree = "<group>";
+		};
+		49B0689723402BD4BBD21D2A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				2699227BDCEFD97101A2211F /* Alamofire.swift */,
+				7E4BF45269895B95B2871C7A /* PrivacyInfo.xcprivacy */,
+				7A7C10E5C3D18BCCCBCDB0AC /* Core */,
+				84C04AB7550A6D5454E306CD /* Extensions */,
+				4E8FFBD08D9B16C4694F5677 /* Features */,
+				5E2B0696856547C21ABD6A9A /* Logic */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		4E8FFBD08D9B16C4694F5677 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0643C4E0E5FA8CDB7102330B /* AlamofireExtended.swift */,
+				A94D07776E04F30AB39A77E4 /* AuthenticationInterceptor.swift */,
+				9B6494AE00BB75376F753E05 /* CachedResponseHandler.swift */,
+				BA84497FCAB8BE263F2ECCCE /* Combine.swift */,
+				C1B97C5F2D7052521992781D /* Concurrency.swift */,
+				B7C0044A3CDE37820E989234 /* EventMonitor.swift */,
+				5D2B463C1353B68CE416A018 /* MultipartFormData.swift */,
+				42D7DF42EF473FB6B7C691F0 /* MultipartUpload.swift */,
+				32AB7E998685F02648DF8746 /* NetworkReachabilityManager.swift */,
+				56FA01CC3D35EF5401344998 /* OfflineRetrier.swift */,
+				50A2CBB23F7873E1D57319DA /* RedirectHandler.swift */,
+				E0D98D0C259AB1A6E12E359A /* RequestCompression.swift */,
+				8EFE3B179D88F9B3CB418472 /* RequestInterceptor.swift */,
+				6A01808BB763732B9ACC5E5A /* ResponseSerialization.swift */,
+				04587F926072AB398EEE2E52 /* RetryPolicy.swift */,
+				B9080C4474702C9A6D3AD19F /* ServerTrustEvaluation.swift */,
+				73269351DF9DB62D72143F12 /* URLEncodedFormEncoder.swift */,
+				C7C15EB3D8E546ABEC9380E7 /* Validation.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		510ABB0F71146B02C2809C22 /* CordonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE2C7865E6C99D8D949041 /* CordonTests.swift */,
+			);
+			path = CordonTests;
+			sourceTree = "<group>";
+		};
+		5E2B0696856547C21ABD6A9A /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1DBDFCCA73585E37194BE784 /* AppConfiguration.swift */,
+				57565E907E0A7E259D6A77CB /* AppRouter.swift */,
+				9126C00239BBAB58D406180B /* DataCache.swift */,
+				8A2AA92FB7E06FF2AFBD7AB3 /* DisplayMode.swift */,
+				4082D6E5E7711FE659788CB1 /* NetworkService.swift */,
+				73132693C05FFA18F4C693F9 /* SessionVault.swift */,
+				53920A4FF0BCBCA362A66E7B /* WebContentView.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		686EEFF2D41397EA01CF62FE /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				706BA389F92DCF085813D8FB /* CanopyButtonStyle.swift */,
+				61699AF6C8B6D956B064808B /* CanopyMetrics.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		715EEB2D03C7D9839F7EA88C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C5C1AE425FC63CF17B4D06A /* CanopyRootView.swift */,
+				3CCC0CEC561574E810C181F5 /* CoverScreens.swift */,
+				10A70593D480A4FE80AE4B01 /* FusedActionStripCard.swift */,
+				B47C588798918128B56E5844 /* SecondarySheets.swift */,
+				FDA0BFF6142DC9B8FB5C7113 /* StockPieces.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A7C10E5C3D18BCCCBCDB0AC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				45DF5FC8B1DD227AD39D73CA /* AFError.swift */,
+				7847A24B90F70E8B9F1F77B1 /* DataEncoding.swift */,
+				B47850CF26B43B83D2A71EF8 /* DataRequest.swift */,
+				8E0B026413996FF5DF52FD75 /* DataStreamRequest.swift */,
+				1C24B29BC61D9DF5E012E149 /* DownloadRequest.swift */,
+				98E7DD918DC11C8E1CB078FA /* HTTPHeaders.swift */,
+				A848B4110BBB968367BF8972 /* HTTPMethod.swift */,
+				47AD669FD5F1CAE5D3E9FC14 /* Notifications.swift */,
+				3493DE1D3885DB11233F2BAF /* ParameterEncoder.swift */,
+				CE26FA1E9190907D7A450171 /* ParameterEncoding.swift */,
+				0046656C44648A44DD64D3FF /* Protected.swift */,
+				AE15BC42D4C00FA4EBE31EAA /* Request.swift */,
+				860D88C92636550EBCCA44C3 /* RequestTaskMap.swift */,
+				9C79E47233CD24712D0B2D11 /* Response.swift */,
+				B86AEBD76A3399DF9DD2D74C /* Session.swift */,
+				DDD37EF1FBCDB15417855270 /* SessionDelegate.swift */,
+				B6A0FCFF59B60C3740628B6D /* UploadRequest.swift */,
+				1A1127B4F8FDE26F7CC39A9C /* URLConvertible+URLRequestConvertible.swift */,
+				7DA2CC81081D39C97B12DCB8 /* WebSocketRequest.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		84C04AB7550A6D5454E306CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E4C9352B4E8B8CCA89D5B816 /* DispatchQueue+Alamofire.swift */,
+				D738BCB8947C9F728DE525E1 /* OperationQueue+Alamofire.swift */,
+				C61E457C9D198FC8D9C1029B /* Result+Alamofire.swift */,
+				F783E5B980921B3915395A9E /* StringEncoding+Alamofire.swift */,
+				9E4D80A1827E4B6C5D34B2FB /* URLRequest+Alamofire.swift */,
+				BAC80D9B2460EE1B59AAA794 /* URLSessionConfiguration+Alamofire.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3E7262D58E334BA90124E52 /* Wire */ = {
+			isa = PBXGroup;
+			children = (
+				10A8B719D1B0803972E86F09 /* ParticleBackdropView.swift */,
+				EBCE4DC57A20F4AAEDA90726 /* VineSpriteScene.swift */,
+			);
+			path = Wire;
+			sourceTree = "<group>";
+		};
+		D3F4C28C9EDDE2B9A0052358 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59CDD7627599E5FF0F7B6C80 /* ReviewScreenRouter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DFEA392E33CDFD664E443722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47893365975E27026B439CC4 /* Alamofire.framework */,
+				E3C63AB95E6289EAE2677AA2 /* Cordon.app */,
+				36BB832730FB9A9C17E549A9 /* CordonTests.xctest */,
+				7A33A5727E5EC0A2CD94726F /* CordonWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3B7929A1F921514C5E1C2D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				49B0689723402BD4BBD21D2A /* Alamofire */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F341BD6076271A13848DC74B /* Cordon */ = {
+			isa = PBXGroup;
+			children = (
+				B9C70897678F0B29F485430C /* APIConfig.swift */,
+				FBA6EE2BC7FA3B2485D8240B /* AppDelegate.swift */,
+				2F581295E8EDD2336E0D7C3D /* Assets.xcassets */,
+				297F65720BB2E8738E84FF72 /* CanopyTotal.swift */,
+				E2E74EFB53A44B3D3A820F11 /* ContentView.swift */,
+				44B2113A1534F5CF89C0D5E6 /* Cordon.swift */,
+				D9F5896C6211709C69468CB7 /* CordonApp.swift */,
+				F9CCED4F48980E9EAEB3E3BE /* CordonArchive.swift */,
+				CDB0F1F8BD0DF172E8762AEF /* CordonCanvas.swift */,
+				03FA0FD2F13DCAD6F128C232 /* CordonDemo.swift */,
+				F44AE3910F69FD90A4DC641D /* CordonDisk.swift */,
+				C8BAE6E6963BAE4B792B9BC9 /* CordonStore.swift */,
+				AB19D0D1E9490202FA51A425 /* CSVExporter.swift */,
+				7799AB35E94B342A9DA55D4B /* DesignTokens.swift */,
+				D629B6AF9FEF5515149EF3FF /* DropMark.swift */,
+				ACD01B45527A59BBB838310D /* Goal.swift */,
+				D9AB02430EB0E4715FF45FD1 /* HollowMark.swift */,
+				6EFEFA5CBA2A6DC585EC5058 /* ReviewLaunch.swift */,
+				E3487059F4019F836C5868A2 /* RipeMark.swift */,
+				22794F74CD26471FB1D3C902 /* SetMark.swift */,
+				68C0FD6D441F7A7D2DAB187C /* Tray.swift */,
+				E4B002FE05455852F0C6A3C6 /* Wire.swift */,
+				D3F4C28C9EDDE2B9A0052358 /* App */,
+				686EEFF2D41397EA01CF62FE /* Design */,
+				715EEB2D03C7D9839F7EA88C /* Views */,
+				C3E7262D58E334BA90124E52 /* Wire */,
+			);
+			path = Cordon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37505E9E0F568FD7F193607A /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B925DB799AE1C777E1FE2C /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				7EB412DA26D5457F3415C46A /* Sources */,
+				E45AE4EE682CD2388A73D79A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			packageProductDependencies = (
+			);
+			productName = Alamofire;
+			productReference = 47893365975E27026B439CC4 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+		7D5B998E8E01A55E764525ED /* CordonWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B09DFC0BD777AF29DD8AE4 /* Build configuration list for PBXNativeTarget "CordonWatch" */;
+			buildPhases = (
+				17E6746BFDC9D5A311C135C9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CordonWatch;
+			packageProductDependencies = (
+			);
+			productName = CordonWatch;
+			productReference = 7A33A5727E5EC0A2CD94726F /* CordonWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FB519A20A74ACF2BC254DDA /* CordonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98C712EC1C7D75A4D058FD9 /* Build configuration list for PBXNativeTarget "CordonTests" */;
+			buildPhases = (
+				D0B9E9AB5E0041F0C4E20CC1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B705C5BC358379488C98F74E /* PBXTargetDependency */,
+			);
+			name = CordonTests;
+			packageProductDependencies = (
+			);
+			productName = CordonTests;
+			productReference = 36BB832730FB9A9C17E549A9 /* CordonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D06BF9FB0576D707AFF4FD4A /* Cordon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BAB5C8FE763C182500414B4 /* Build configuration list for PBXNativeTarget "Cordon" */;
+			buildPhases = (
+				3DA6746F16CBF720861BCC01 /* Sources */,
+				38E0E258019E21DF67973345 /* Resources */,
+				34499B7C28FFB26F97D25697 /* Frameworks */,
+				6AD90F3E91532203B0B91C89 /* Embed Frameworks */,
+				08AE6F75FE9565BDCCC7148C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9582D24E5914C462ED2D03FE /* PBXTargetDependency */,
+				2A45D1223A9A1D011B932BC1 /* PBXTargetDependency */,
+			);
+			name = Cordon;
+			packageProductDependencies = (
+			);
+			productName = Cordon;
+			productReference = E3C63AB95E6289EAE2677AA2 /* Cordon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D4B25C855A090DCD97F24D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					37505E9E0F568FD7F193607A = {
+						ProvisioningStyle = Automatic;
+					};
+					7D5B998E8E01A55E764525ED = {
+						ProvisioningStyle = Automatic;
+					};
+					8FB519A20A74ACF2BC254DDA = {
+						ProvisioningStyle = Automatic;
+					};
+					D06BF9FB0576D707AFF4FD4A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC55EE2F90BE5C5AE1AFD6B6 /* Build configuration list for PBXProject "Cordon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 15ACF58F731FF06AB7653E8D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DFEA392E33CDFD664E443722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37505E9E0F568FD7F193607A /* Alamofire */,
+				D06BF9FB0576D707AFF4FD4A /* Cordon */,
+				7D5B998E8E01A55E764525ED /* CordonWatch */,
+				8FB519A20A74ACF2BC254DDA /* CordonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E0E258019E21DF67973345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AECDD5670E624AA131A42E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45AE4EE682CD2388A73D79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464918784032AD0A2C93E8A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E6746BFDC9D5A311C135C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FE2A146CE1B019350ACFC8 /* CanopyTotal.swift in Sources */,
+				E92DB9050D5B837FC9920A3C /* Cordon.swift in Sources */,
+				582E24C57B42F84E7C3A8215 /* CordonArchive.swift in Sources */,
+				23A07D9D78C3E1DB3A623A2D /* CordonCanvas.swift in Sources */,
+				52E05FF139F4DF9B9E5889EA /* CordonDemo.swift in Sources */,
+				F946148F1A6B7C41C6869893 /* DesignTokens.swift in Sources */,
+				9D4C2CFF4053961D47EF8E0C /* DropMark.swift in Sources */,
+				3A11CB601B7DF3A85C9CA512 /* Goal.swift in Sources */,
+				3AA7613AA24DA8DA0C3505E6 /* HollowMark.swift in Sources */,
+				1AF77D6F1243B38701083548 /* ReviewLaunch.swift in Sources */,
+				C0B598EE36565F512A6418EA /* RipeMark.swift in Sources */,
+				0C237C1CB19D2F940F092DAE /* SetMark.swift in Sources */,
+				F64B96C63C2D1322BD4C0788 /* Tray.swift in Sources */,
+				439184D8E36F9998CFFF756D /* WatchRoot.swift in Sources */,
+				41030C29E0222CA5DA74A6C6 /* Wire.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6746F16CBF720861BCC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89633DB212A4519908919BE /* APIConfig.swift in Sources */,
+				1D8A975CC97E8158EA6794A2 /* AppDelegate.swift in Sources */,
+				B33189C8FCCA4B3167A16345 /* CSVExporter.swift in Sources */,
+				4BB9CF4F2443BDB8E31BA756 /* CanopyButtonStyle.swift in Sources */,
+				07D2EF38DC69FC856AC84534 /* CanopyMetrics.swift in Sources */,
+				080E5A935AAB2D0C3E193505 /* CanopyRootView.swift in Sources */,
+				007F19E35FA2D2FAAB0CA957 /* CanopyTotal.swift in Sources */,
+				0A815819AC529AE4D75038BC /* ContentView.swift in Sources */,
+				3CA1CF05A5FCA3973AAF4C56 /* Cordon.swift in Sources */,
+				6786E0F9C7E6E8D46AE3B089 /* CordonApp.swift in Sources */,
+				3B53571A30FD10FDC5B026AA /* CordonArchive.swift in Sources */,
+				69BBF3995338CE173E04493A /* CordonCanvas.swift in Sources */,
+				2EB7EB64EE6027E5F5412664 /* CordonDemo.swift in Sources */,
+				9E2BB00DC7A85A91DAD5FB97 /* CordonDisk.swift in Sources */,
+				6210A8EFE05BC0A36840BCC8 /* CordonStore.swift in Sources */,
+				446CAEFAAE39A4CB56E56C35 /* CoverScreens.swift in Sources */,
+				D56F78A8A8609405022DBACE /* DesignTokens.swift in Sources */,
+				ED03ECAB9E66223F690321EA /* DropMark.swift in Sources */,
+				B51666275E554470DFA8D396 /* FusedActionStripCard.swift in Sources */,
+				AC1FCED578EDB6899C8C2ED6 /* Goal.swift in Sources */,
+				98E34A449CFF30F7BB0BA3DE /* HollowMark.swift in Sources */,
+				55543B1003B97EF99027BACD /* ParticleBackdropView.swift in Sources */,
+				B3FBD0880FC53176EBA04592 /* ReviewLaunch.swift in Sources */,
+				0CD38F86AA8E87020A47EB26 /* ReviewScreenRouter.swift in Sources */,
+				7E4830A59E98084D093002AD /* RipeMark.swift in Sources */,
+				61A700EF7AD501F80D158934 /* SecondarySheets.swift in Sources */,
+				B8649488647CC8D48B672999 /* SetMark.swift in Sources */,
+				CA6A9F167FF6B389ED65D04B /* StockPieces.swift in Sources */,
+				4BA0760091354ABAE451FE98 /* Tray.swift in Sources */,
+				A930934F58A2AA7B2E0C256C /* VineSpriteScene.swift in Sources */,
+				79EC3EBD75E433519CA6D998 /* Wire.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB412DA26D5457F3415C46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CA3C9188223F28F39B114F /* AFError.swift in Sources */,
+				86248936F6AABB720B251A4E /* Alamofire.swift in Sources */,
+				EBC187F594A028C044C06C9F /* AlamofireExtended.swift in Sources */,
+				BE826B7E0F22ECEEF42DEBFF /* AppConfiguration.swift in Sources */,
+				B233CB95FF832C20AB53AA01 /* AppRouter.swift in Sources */,
+				D0F9061510A016915E8B5B21 /* AuthenticationInterceptor.swift in Sources */,
+				6D3F2EDDCBF85D87B5ED0A08 /* CachedResponseHandler.swift in Sources */,
+				457A08AB00F22B8268D832F9 /* Combine.swift in Sources */,
+				D4F7074E29EFD315F72AE44A /* Concurrency.swift in Sources */,
+				CCA3CD10DEE41D72E0BEF4DF /* DataCache.swift in Sources */,
+				6BC52180C79B844604B23E9F /* DataEncoding.swift in Sources */,
+				543B4744426EF3E12BC65AE3 /* DataRequest.swift in Sources */,
+				0CD08219FAF347DA5AA3F0F4 /* DataStreamRequest.swift in Sources */,
+				F363B3AEFB2547EEBBB6B7CA /* DispatchQueue+Alamofire.swift in Sources */,
+				7FB6BAA6173C30799793880C /* DisplayMode.swift in Sources */,
+				0549A1FE101A1881350ADD60 /* DownloadRequest.swift in Sources */,
+				3EFD195A69E08E2BD8A02E32 /* EventMonitor.swift in Sources */,
+				AC44D92BEECC7736C8447C5F /* HTTPHeaders.swift in Sources */,
+				C5F48AD8ADF9C5CDEA1D21AD /* HTTPMethod.swift in Sources */,
+				3842AB56FDA3A9F7AD9F4401 /* MultipartFormData.swift in Sources */,
+				1A0B4D4E756083AAC6E62D6A /* MultipartUpload.swift in Sources */,
+				F50E23EAC82B305FA784B206 /* NetworkReachabilityManager.swift in Sources */,
+				81E679C9D24425EE1B89B7DE /* NetworkService.swift in Sources */,
+				22F406D23EF394A11FFDEBC6 /* Notifications.swift in Sources */,
+				27EF55F0F32A3559E3DB30F4 /* OfflineRetrier.swift in Sources */,
+				BDE7B28E434061A287633BEC /* OperationQueue+Alamofire.swift in Sources */,
+				F46349E64EF2E348C18202B8 /* ParameterEncoder.swift in Sources */,
+				E07CCB9104F6DE4634ECED78 /* ParameterEncoding.swift in Sources */,
+				1FF1090DDDFF263657A39127 /* Protected.swift in Sources */,
+				CA2544C9AE5BD20F50AC08F1 /* RedirectHandler.swift in Sources */,
+				F4F5EB4EC16686AD59D02876 /* Request.swift in Sources */,
+				55C4B4460F891D5F3771B1B8 /* RequestCompression.swift in Sources */,
+				C3E02CE8B754AE345032796E /* RequestInterceptor.swift in Sources */,
+				30D6A55D36DC6FAAE880D8D7 /* RequestTaskMap.swift in Sources */,
+				DE040F40953C540A16BD1F1B /* Response.swift in Sources */,
+				64825BA7D4CE38230030028E /* ResponseSerialization.swift in Sources */,
+				71DF7C5B2118265359A8241F /* Result+Alamofire.swift in Sources */,
+				6B6C3283CAFBC4A2E250DADF /* RetryPolicy.swift in Sources */,
+				480687C9BE34046D265FFAE4 /* ServerTrustEvaluation.swift in Sources */,
+				701C2F8B4099EB4B7B7B1303 /* Session.swift in Sources */,
+				2965C93797EA38079DFF3DA8 /* SessionDelegate.swift in Sources */,
+				E66DA7637538835197289A07 /* SessionVault.swift in Sources */,
+				3DE310B73314789312EC620E /* StringEncoding+Alamofire.swift in Sources */,
+				8E123CAB5FA04CEF525D12B2 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				B49D70358882A042FE8A92A1 /* URLEncodedFormEncoder.swift in Sources */,
+				665551AC79DACDB3EE66067B /* URLRequest+Alamofire.swift in Sources */,
+				7219F682B1E769D2E633B3B1 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				BEEDE840C5131F8F898A98EC /* UploadRequest.swift in Sources */,
+				29FAB5BAC86A9EDD91F6C72D /* Validation.swift in Sources */,
+				CD9995EC2B38E2258C0AE622 /* WebContentView.swift in Sources */,
+				41F60D20F5FBEFC4D099BF72 /* WebSocketRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9E9AB5E0041F0C4E20CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B128A0AFF012072C90C3CB34 /* CordonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A45D1223A9A1D011B932BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37505E9E0F568FD7F193607A /* Alamofire */;
+			targetProxy = 645BDDDC1D61E57285147823 /* PBXContainerItemProxy */;
+		};
+		9582D24E5914C462ED2D03FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D5B998E8E01A55E764525ED /* CordonWatch */;
+			targetProxy = 853B31C5542CE351927A1E8A /* PBXContainerItemProxy */;
+		};
+		B705C5BC358379488C98F74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06BF9FB0576D707AFF4FD4A /* Cordon */;
+			targetProxy = D11D002D0C2207FF7525D0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29F0514E9B7787902C6B4764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy;
+				PRODUCT_NAME = Cordon;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D13B58410BD57B438DD2D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy;
+				PRODUCT_NAME = Cordon;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69117CB126376B80AAA8A1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cordon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cordon";
+			};
+			name = Debug;
+		};
+		8022322DD4EAAD25A9596DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		AEB29A4C5C9D4CE28C813B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cordon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cordon";
+			};
+			name = Release;
+		};
+		B096B986A332F43C05138B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.Alamofire;
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		B5DE288AFF127472CC0E6AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cordon.canopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.watchkitapp;
+				PRODUCT_NAME = CordonWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		D0B9C11996ABDFC8115817A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.Alamofire;
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		F41A23D60EF3080AB0E4054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cordon;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cordon.canopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cordon.canopy.watchkitapp;
+				PRODUCT_NAME = CordonWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		FF1B7E8628DC55627B8E9ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BAB5C8FE763C182500414B4 /* Build configuration list for PBXNativeTarget "Cordon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F0514E9B7787902C6B4764 /* Debug */,
+				5D13B58410BD57B438DD2D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8B09DFC0BD777AF29DD8AE4 /* Build configuration list for PBXNativeTarget "CordonWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DE288AFF127472CC0E6AF7 /* Debug */,
+				F41A23D60EF3080AB0E4054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A98C712EC1C7D75A4D058FD9 /* Build configuration list for PBXNativeTarget "CordonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69117CB126376B80AAA8A1A8 /* Debug */,
+				AEB29A4C5C9D4CE28C813B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9B925DB799AE1C777E1FE2C /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B096B986A332F43C05138B29 /* Debug */,
+				D0B9C11996ABDFC8115817A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC55EE2F90BE5C5AE1AFD6B6 /* Build configuration list for PBXProject "Cordon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8022322DD4EAAD25A9596DDF /* Debug */,
+				FF1B7E8628DC55627B8E9ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D4B25C855A090DCD97F24D /* Project object */;
+}
